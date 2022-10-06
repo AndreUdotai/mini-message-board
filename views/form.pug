@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1 Form Page
+
+    form(method='POST' action='/new')
+        input#name(type='text' name='name' placeholder='Name')
+        input#message(type='text' name='message' placeholder='Message')
