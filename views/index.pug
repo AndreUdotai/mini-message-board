@@ -4,6 +4,9 @@ block content
   h1= title
   p Welcome to #{title}
 
+  a(href='/new')
+    button Add new
+
   div
     each val in messages
       h3= val.user
