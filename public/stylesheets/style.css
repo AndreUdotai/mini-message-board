@@ -1,5 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -7,4 +12,45 @@ a {
   color: #00B7FF;
 }
 
+#app {
+  width: 100%;
+  margin: 0px auto;
+  background-color: rgb(223, 223, 223);
+}
 
+
+#header {
+  text-align: center;
+  background-color: rgb(41, 157, 237);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
+/* #title {
+
+} */
+/* #description {
+
+} */
+
+#addNew {
+  width: 600px;
+}
+/* #button {
+
+} */
+#main {
+  width: 600px;
+  margin: 0px auto;
+  padding-top: 30px;
+  background-color: pink;
+}
+/* #name {
+
+} */
+/* #message {
+
+} */
+/* #time {
+
+} */
