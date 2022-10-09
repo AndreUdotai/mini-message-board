@@ -5,7 +5,7 @@ const messages = [
         added: new Date(),
     },
     {
-        text: 'Hello World!',
+        text: 'From the days of Romeo, the kingdom of women suffereth violence and only the violent men could take them by force',
         user: 'Charles',
         added: new Date(),
     },
@@ -21,7 +21,7 @@ router.get('/', function (req, res, next) {
 
 // GET form
 router.get('/new', function (req, res, next) {
-  res.render('form')
+  res.render('form', {title: "Message Board"})
 })
 
 // POST message

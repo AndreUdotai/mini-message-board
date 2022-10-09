@@ -1,9 +1,11 @@
 extends layout
 
 block content
-    h1 Form Page
+  div#app
+    div#header
+      h1#title= title
 
-    form(method='POST' action='/new')
-        input#name(type='text' name='name' placeholder='Name')
-        input#message(type='text' name='message' placeholder='Message')
-        input(type='submit' value='Send')
+    form#form(method='POST' action='/new')
+        input#nameInput(type='text' name='name' placeholder='Name')
+        textarea#messageInput(rows='3' type='text' name='message' placeholder='Message')
+        input#button(type='submit' value='Send')
